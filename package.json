@@ -1,0 +1,19 @@
+{
+  "name": "fieldflow",
+  "private": true,
+  "version": "1.0.0",
+  "author": "vladimir.sverbinskiy",
+  "packageManager": "pnpm@11.5.3",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write \"apps/**/*.ts\" \"packages/**/*.ts\" --ignore-path .gitignore --no-error-on-unmatched-pattern"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "turbo": "^2.11.5",
+    "typescript": "^7.0.2"
+  }
+}
